@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtamPlay Video App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>🎵 UtamPlay</h1>
+        <p>KUTOMBANA LIVE!</p>
+    </div>
+</header>
+
+<div class="container">
+    <!-- Sehemu ya Picha -->
+    <div class="image-section">
+        <img src="https://pbs.twimg.com/media/FgZeylaXEAAeLbY.jpg" alt="Picha ya Milima" class="hero-image">
+    </div>
+
+    <!-- Sehemu ya Video -->
+    <div class="video-grid">
+        <div class="video-card">
+            <h2>🎬 Video 1: Milima ya Snowdon</h2>
+            <video controls poster="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg">
+                <source src="https://videos.pexels.com/video-files/14409942/14409942-hd_1920_1080_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>🏔️ Video 2: Mandhari ya Alps</h2>
+            <video controls poster="https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg">
+                <source src="https://videos.pexels.com/video-files/20143861/uhd_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>❄️ Video 3: Glacier ya Patagonia</h2>
+            <video controls poster="https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg">
+                <source src="https://videos.pexels.com/video-files/32987050/14058596_3840_2160_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>🔥 Video 4: KUMA IPO</h2>
+            <video controls poster="https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg">
+                <source src="https://videos.pexels.com/video-files/29569974/12728088_3840_2160_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>💃 Video 5: ANAKAZWA VIZURI</h2>
+            <video controls poster="https://images.pexels.com/photos/1196537/pexels-photo-1196537.jpeg">
+                <source src="https://videos.pexels.com/video-files/19610454/19610454-uhd_3840_2160_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>🎤 Video 6: JAMAA ANATOMBA</h2>
+            <video controls poster="https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg">
+                <source src="https://videos.pexels.com/video-files/12134662/12134662-hd_1920_1080_30fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>🌟 Video 7: UTAM UPO</h2>
+            <video controls poster="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg">
+                <source src="https://videos.pexels.com/video-files/20703132/20703132-hd_1920_1080_30fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>💫 Video 8: KUMA TAM</h2>
+            <video controls poster="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg">
+                <source src="https://videos.pexels.com/video-files/14409942/14409942-hd_1920_1080_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+
+        <div class="video-card">
+            <h2>🎭 Video 9: JAMAA ANATOMBA</h2>
+            <video controls poster="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg">
+                <source src="https://videos.pexels.com/video-files/20143861/uhd_60fps.mp4" type="video/mp4">
+                Browser yako haitumii video format hii.
+            </video>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 UtamPlay. Haki zote zimehifadhiwa. | Tunapenda Muziki na Burudani!</p>
+</footer>
+
+<script>
+    // Simple JavaScript for better user experience
+    document.addEventListener('DOMContentLoaded', function() {
+        const videos = document.querySelectorAll('video');
+        
+        videos.forEach(video => {
+            video.addEventListener('click', function() {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        });
+        
+        // Add loading animation
+        console.log('UtamPlay Website Imeloadika Vizuri!');
+    });
+</script>
+
+</body>
+</html>
