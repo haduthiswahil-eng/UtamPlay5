@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtamPlay Video App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background-color: #1f1f1f;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .video {
+            margin: 20px 0;
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        .link {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .link:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            padding: 20px;
+            background-color: #1f1f1f;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UtamPlay</h1>
+    <p>KAMA UNATAKA KUMA BONYEZA</p>
+</header>
+
+<div class="container">
+
+    <!-- Video 1 -->
+    <div class="video">
+        <h2>Video 1</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/0d/5e/fd/0d5efde025612eb4cc0b4054b5da7c7f_169.mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="video">
+        <h2>Video 2</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/e7/19/86/e71986bd5af5f36f64decba809c27663_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="video">
+        <h2>Video 3</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/a5/77/1d/a5771d5144e788f4df21b6694395a38d_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 4 -->
+    <div class="video">
+        <h2>Video 4</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/0e/6e/f9/0e6ef969cd8e9206f4a622ad45ed4e33_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 5 -->
+    <div class="video">
+        <h2>Video 5</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/97/92/95/9792958d3809a4400b8421878421a615_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 6 -->
+    <div class="video">
+        <h2>Video 6</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/fb/75/fa/fb75faf264f909934f9878bac210367c_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 7 -->
+    <div class="video">
+        <h2>Video 7</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/a5/77/1d/a5771d5144e788f4df21b6694395a38d_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 8 -->
+    <div class="video">
+        <h2>Video 8</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/9a/e7/8a/9ae78a7473e8377d6a9d6db284c48ff2_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+    <!-- Video 9 -->
+    <div class="video">
+        <h2>Video 9</h2>
+        <video controls>
+            <source src="https://cdn77-pic.xvideos-cdn.com/videos/videopreview/4c/41/cb/4c41cb5f096a34728855a8b4edd0cb7d_169.mp4" type="video/mp4">
+        </video>
+        <a href="https://utamuutamu.store/ea43f" class="link" target="_blank">bonyeza Hapa</a>
+    </div>
+
+</div>
+
+<footer>
+    © UtamPlay 
+</footer>
+
+</body>
+</html>
